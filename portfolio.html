@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>/* styles.css */
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #5f32b2, #d76d77, #ffaf7b);
+            color: white;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+        }
+        
+        header {
+            position: relative;
+            z-index: 100;
+        }
+        
+        h1 {
+            font-size: 3em;
+            margin: 0.5em 0;
+            animation: fadeInDown 2s ease;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: #ffaf7b;
+        }
+        
+        .section {
+            display: none;
+            padding: 20px;
+            margin-top: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+        }
+        
+        .section h2 {
+            margin-bottom: 15px;
+            animation: fadeIn 2s ease;
+        }
+        
+        .section p {
+            animation: slideIn 2s ease;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(-50px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        </style>
+       
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>ABISHEK RAIMAND J</h1>
+            <nav>
+                <ul>
+                    <li><a href="#objective">Objective</a></li>
+                    <li><a href="#internship">Internship</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Technical Skills</a></li>
+                    <li><a href="#projects">Academic Projects</a></li>
+                    <li><a href="#interests">Area of Interests</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="objective" class="section">
+            <h2>Objective</h2>
+            <p>
+                I am a Dedicated individual leveraging three months of hands-on experience in the data science domain to harness data-driven models for tackling real-world problems. I have a never-ending curiosity for learning new skills, seeking a career with high problem-solving demands and non-repetitive challenges.
+            </p>
+        </section>
+        <section id="internship" class="section">
+            <h2>Internship</h2>
+                <p>
+                    <strong>Shiash Info Solutions | Feb 2024 - May 2024 (3 months)</strong><br>
+                    Problem Statement: To streamline HR processes and improve efficiency, we aim to develop an automated system that uses AI to extract Aadhar details from Aadhar images.
+                </p>
+                <p>Roles & Responsibilities:</p>
+                <ul>
+                    <li>Reduced manual HR work by automating Aadhar details extraction using YOLO for object detection and PaddleOCR for character recognition.</li>
+                    <li>Compiled extracted details into an Excel file for efficient data management.</li>
+                </ul>
+        </section>
+        <section id="education" class="section">
+            <h2>Education</h2>
+                <p><strong>B.Tech, Artificial Intelligence and Data Science</strong><br>
+                CARE College Of Engineering, Trichy | CGPA: 8.12 | 2020-2024</p>
+                <p><strong>Class XII - HSC - Higher Secondary School Certificate</strong><br>
+                St.Patrick Academy Matriculation Higher Secondary School, Dindigul | Secured: 63.5 | 2019-2020</p>
+                <p><strong>Class X - SSLC - Secondary School Leaving Certificate</strong><br>
+                Infant Jesus Matriculation Higher Secondary School, Pudukkottai | Secured: 76.4 | 2017-2018</p>
+        </section>
+        <section id="skills" class="section">
+            <h2>Technical Skills</h2>
+            <p><strong>Machine Learning:</strong> Linear regression, Logistic regression, Decision tree, Random Forest, KNN</p>
+            <p><strong>Deep Learning:</strong> ANN, CNN, Computer Vision</p>
+            <p><strong>Frontend:</strong> HTML, CSS</p>
+            <p><strong>Backend:</strong> Python, Django</p>
+            <p><strong>Database Connectivity:</strong> MySQL</p>
+            <p><strong>Visualization Tools:</strong> PowerBI</p>
+        </section>
+        <section id="projects" class="section">
+            <h2>Academic Projects</h2>
+                <p><strong>Optical Character Recognition</strong><br>
+                Problem Statement: To facilitate text extraction and modification, we developed a website that converts text from images into documents for further editing.</p>
+                <p>Roles & Responsibilities:</p>
+                    <ul>
+                        <li>Reduced manual text extraction by creating a website that uses PaddleOCR to convert text images into modifiable documents.</li>
+                        <li>Implemented multi-language support for text extraction based on user input.</li>
+                    </ul>
+                <p><strong>Unveiling Chronic Kidney Disease stages via Random Forest Algorithm</strong><br>
+                Problem Statement: To improve the diagnosis and treatment of chronic kidney disease(CKD), we developed a machine learning model to classify the different stages of CKD based on patient data. It will facilitate early detection by leveraging clinical data to predict CKD progression stages efficiently.</p>
+                <p>Roles & Responsibilities:</p>
+                <a href="https://github.com/raimandabishek/Kidney-Disease-Classification-Deep-Learning-Project"></a>
+                <ul>
+                    <li>Designed and deployed a RF ML algorithm to classify CKD stages and preprocess relevant patient data.</li>
+                    <li>Evaluated and optimized the model performance through parameter tuning, feature selection, ensuring accurate and reliable predictions.</li>
+                </ul>
+        </section>
+        <section id="interests" class="section">
+            <h2>Area of Interests</h2>
+            <ul>
+                <li>Artificial Intelligence</li>
+                <li>Computer Vision</li>
+                <li>Deep Learning</li>
+                <li>Machine Learning</li>
+                <li>Data Analytics</li>
+            </ul>
+        </section>
+    </div>
+    <script>
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const sections = document.querySelectorAll('.section');
+            const navLinks = document.querySelectorAll('nav ul li a');
+        
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    sections.forEach(section => {
+                        if (section.id === targetId) {
+                            section.style.display = 'block';
+                            section.scrollIntoView({ behavior: 'smooth' });
+                        } else {
+                            section.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
